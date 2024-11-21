@@ -1,5 +1,6 @@
 import { fail } from '@sveltejs/kit';
 import { env } from '$env/dynamic/private';
+import { useApiUrl } from '$lib/functions/useApiUrl.js';
 
 export const load = async (event) => {
 	// const loginState = JSON.parse(event.cookies.get('loginState') || "");
@@ -7,6 +8,7 @@ export const load = async (event) => {
 
 export const actions = {
 	login: async (event) => {
+		const apiUrl = useApiUrl()
 		const data = await event.request.formData();
 		const phone_number = data.get('phone_number')?.toString() || '';
 		const country_code = data.get('country_code')?.toString() || '';
@@ -23,7 +25,7 @@ export const actions = {
 		const newData = {
 			phoneNumber: full_phone_number,
 		}
-		const request = await fetch(`${env.API_URL}/auth/send-otp`, {
+		const request = await fetch(`${apiUrl}/auth/send-otp`, {
 			method: 'POST',
 			headers: {
 				'Content-Type': 'application/json',
@@ -45,10 +47,11 @@ export const actions = {
 		}
 	},
 	verify: async (event) => {
+		const apiUrl = useApiUrl()
 		const loginState = JSON.parse(event.cookies.get('loginState') || "");
 		const data = await event.request.formData();
 		const otp = data.get('otp')?.toString() || '';
-		const request = await fetch(`${env.API_URL}/auth/login`, {
+		const request = await fetch(`${apiUrl}/auth/login`, {
 			method: 'POST',
 			headers: {
 				'Content-Type': 'application/json',
