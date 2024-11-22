@@ -5,14 +5,14 @@
 </script>
 
 <Seo title="Nyantri Kilat | Profile" />
-<section class="w-96 flex flex-col gap-y-5">
+<section class="flex flex-col gap-y-5">
     <label for="id" class="flex flex-col gap-y-2">
         <span class="label-text">Registration Number</span>
-        <input id="id" type="text" value="{user.registration_number}" class="input input-bordered w-full rounded-xl focus:outline-none" placeholder="Id" disabled/>
+        <input id="id" type="text" value="{user?.registration_number}" class="input input-bordered w-full rounded-xl focus:outline-none" placeholder="Id" disabled/>
     </label>
     <label for="name" class="flex flex-col gap-y-2">
         <span class="label-text">Nama Lengkap</span>
-        <input id="name" type="text" value="{user.name}" class="input input-bordered w-full rounded-xl focus:outline-none" placeholder="Nama Lengkap" disabled />
+        <input id="name" type="text" value="{user?.name}" class="input input-bordered w-full rounded-xl focus:outline-none" placeholder="Nama Lengkap" disabled />
     </label>
     <label for="birthdate" class="flex flex-col gap-y-2">
         <span class="label-text">Tanggal Lahir</span>

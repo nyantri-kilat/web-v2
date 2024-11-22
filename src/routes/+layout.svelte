@@ -1,8 +1,6 @@
 <script lang="ts">
-	// @ts-nocheck
 	import nProgress from 'nprogress'
 	import { navigating } from '$app/stores';
-	import Toastify from 'toastify-js';
 
 	import 'nprogress/nprogress.css';
 	import "toastify-js/src/toastify.css"
@@ -25,12 +23,11 @@
 	import Seo from '$lib/components/SEO.svelte';
 	import '../app.css';
 	let { children, data } = $props();
-	$inspect(data.phone_number_verified)
 </script>
 
 <Seo />
 <section class="mx-auto max-w-screen-md p-5">
-	<Navbar number_is_verified={data.phone_number_verified} sessionId={data.sessionId}/>
+	<Navbar number_is_verified={data.phone_number_verified} sessionId={data.sessionId} isNewUser={data.isNewUser}/>
 	<section class="w-full">
 		{@render children()}
 	</section>

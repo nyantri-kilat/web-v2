@@ -14,7 +14,7 @@
             <select name="country_code" id="country_code" class="input input-bordered rounded-l-xl rounded-none focus:outline-none" disabled={number_is_verified}>
                 <option value="62">+62</option>
             </select>
-            <input type="number" name="phone_number" class="input input-bordered w-full rounded-none {number_is_verified ? "focus:outline-none" : ""}" placeholder="Nomor Whatsapp" value="{number_is_verified ? phone_number_verified.phone_number : ''}" readonly={number_is_verified}/>
+            <input type="number" name="phone_number" class="input input-bordered w-full rounded-none {number_is_verified ? "focus:outline-none" : ""}" placeholder="Nomor Whatsapp" value="{number_is_verified ? phone_number_verified.phone_number : ''}" readonly={number_is_verified} required/>
             <button class="btn btn-primary rounded-r-xl rounded-none text-black" disabled={number_is_verified} >Kirim OTP</button>
         </form>
         <small>Masukkan nomor WA tanpa awalan 0</small>
