@@ -37,7 +37,7 @@ export const load = async (event) => {
 
 export const actions = {
 	login: async (event) => {
-		// const apiUrl = useApiUrl()
+		const apiUrl = useApiUrl()
 		const data = await event.request.formData();
 		const phone_number = data.get('phone_number')?.toString() || '';
 		const country_code = data.get('country_code')?.toString() || '';
@@ -55,7 +55,7 @@ export const actions = {
 			phoneNumber: full_phone_number,
 		}
 		try {
-			const request = await fetch(`${env.API_URL}/auth/send-otp`, {
+			const request = await fetch(`${apiUrl}/auth/send-otp`, {
 				method: 'POST',
 				headers: {
 					'Content-Type': 'application/json',
@@ -85,12 +85,12 @@ export const actions = {
 		}
 	},
 	verify: async (event) => {
-		// const apiUrl = useApiUrl()
+		const apiUrl = useApiUrl()
 		const loginState = JSON.parse(event.cookies.get('loginState') || "");
 		const data = await event.request.formData();
 		const otp = data.get('otp')?.toString() || '';
 		try {
-			const request = await fetch(`${env.API_URL}/auth/login`, {
+			const request = await fetch(`${apiUrl}/auth/login`, {
 				method: 'POST',
 				headers: {
 					'Content-Type': 'application/json',
