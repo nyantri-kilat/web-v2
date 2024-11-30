@@ -1,5 +1,5 @@
-import { API_URL } from "$env/static/private"; 
+import { env } from "$env/dynamic/private"; 
 
 export const useApiUrl = () => {
-    return API_URL
+    return env.API_URL
 }
