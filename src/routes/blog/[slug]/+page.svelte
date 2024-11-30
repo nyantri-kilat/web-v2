@@ -8,7 +8,7 @@
 </script>
 <svelte:window bind:scrollY={y} />
 
-<section class="pt-5 relative">
+<section class="pt-5 pb-20 relative">
     {#if y > 200}
         <button class="btn btn-sm btn-accent fixed bottom-5 right-8 opacity-90 text-white" onclick={()=>goTop()} aria-label="Back to top">
             <svg class="w-6 h-6" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">

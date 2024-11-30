@@ -27,7 +27,7 @@
 			alt: 'Banner 5'
 		},
 		{
-			src: guru5,
+			src: guru6,
 			alt: 'Banner 6'
 		}
 	];

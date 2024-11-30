@@ -1,4 +1,5 @@
+import { API_URL } from "$env/static/private"; 
+
 export const useApiUrl = () => {
-    const url = "https://api.alkafi.site"
-    return url;
+    return API_URL
 }

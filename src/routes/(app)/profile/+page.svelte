@@ -12,11 +12,15 @@
     </label>
     <label for="name" class="flex flex-col gap-y-2">
         <span class="label-text">Nama Lengkap</span>
-        <input id="name" type="text" value="{user?.name}" class="input input-bordered w-full rounded-xl focus:outline-none" placeholder="Nama Lengkap" disabled />
+        <input id="name" type="text" value="{user?.name}" class="input input-bordered w-full rounded-xl focus:outline-none" placeholder="Nama Lengkap" />
     </label>
     <label for="birthdate" class="flex flex-col gap-y-2">
         <span class="label-text">Tanggal Lahir</span>
-        <input id="birthdate" type="datetime" value="{new Date(user.birth_date).toLocaleDateString()}" class="input input-bordered w-full rounded-xl focus:outline-none" placeholder="Nama Lengkap" disabled />
+        <input id="birthdate" type="datetime" value="{new Date(user ? user.birth_date : '').toLocaleDateString()}" class="input input-bordered w-full rounded-xl focus:outline-none" placeholder="Nama Lengkap" />
+    </label>
+    <label for="birthdate" class="flex flex-col gap-y-2">
+        <span class="label-text">Pekerjaan</span>
+        <input id="occupation" type="text" value="{user?.occupation}" class="input input-bordered w-full rounded-xl focus:outline-none" placeholder="Pekerjaan" disabled />
     </label>
     <form action="?/logout" method="POST">
         <button type="submit" class="btn btn-error rounded-xl text-white w-full">

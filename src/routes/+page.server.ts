@@ -115,5 +115,42 @@ export const actions = {
 				status: 500,
 			}
 		}
+	},
+	completeProfile: async (event) => {
+		const apiUrl = useApiUrl()
+		const sessionId = event.cookies.get('sessionId') || false
+		const data = await event.request.formData();
+		const name = data.get('name')?.toString() || '';
+		const birthday = data.get('birthday')?.toString() || '';
+		const occupation = data.get('occupation')?.toString() || '';
+		try {
+			const request = await fetch(`${apiUrl}/auth/complete-profile`, {
+				method: 'POST',
+				headers: {
+					'Content-Type': 'application/json',
+					'Authorization': `Bearer ${sessionId}`
+				},
+				body: JSON.stringify({
+					name,
+					birthDate: birthday,
+					occupation
+				}),
+			})
+			if(request.status === 400 || request.status === 401){
+				const response = await request.json();	
+				throw new Error(response.message)
+			}
+			const response = await request.json();
+			event.cookies.delete('isNewUser', {path: '/'});
+			return {
+				status: 200,
+				message: response.message
+			}
+		} catch (error) {
+			return {
+				status: 500,
+				message: error
+			}
+		}
 	}
 };
