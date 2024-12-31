@@ -1,5 +1,4 @@
 import { fail } from '@sveltejs/kit';
-import { env } from '$env/dynamic/private';
 import { useApiUrl } from '$lib/functions/useApiUrl.js';
 import type { ContentfulDataEntries } from '$lib/types/contentful.js';
 
@@ -71,7 +70,7 @@ export const actions = {
 				phone_number: phone_number_clean,
 				full_phone_number: full_phone_number,
 				expired: new Date().getTime() + 1000 * 60
-			};
+			};``
 			event.cookies.set('loginState', JSON.stringify(to_be_verified_number), { path: '/' });
 	
 			return {
@@ -103,8 +102,10 @@ export const actions = {
 			const response = await request.json();
 			const { accessToken, isNewUser } = response.data
 			const message = response.message
-			event.cookies.set('sessionId', accessToken, {path: '/'});
-			event.cookies.set('isNewUser', isNewUser.toString(), {path: '/'});
+			event.cookies.set('sessionId', accessToken, {path: '/', maxAge: 1000 * 60 * 60 * 24 * 7});
+			if(isNewUser == 'true') {
+				event.cookies.set('isNewUser', isNewUser.toString(), {path: '/'});
+			}
 			event.cookies.delete('loginState', {path: "/"})
 			return {
 				status: 200,

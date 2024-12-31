@@ -8,7 +8,7 @@
 <section class="flex flex-col gap-y-5">
     <label for="id" class="flex flex-col gap-y-2">
         <span class="label-text">Registration Number</span>
-        <input id="id" type="text" value="{user?.registration_number}" class="input input-bordered w-full rounded-xl focus:outline-none" placeholder="Id" disabled/>
+        <input id="id" type="text" value="{user?.registration_number}" class="input input-bordered w-full rounded-xl focus:outline-none" placeholder="Id"/>
     </label>
     <label for="name" class="flex flex-col gap-y-2">
         <span class="label-text">Nama Lengkap</span>
@@ -20,7 +20,7 @@
     </label>
     <label for="birthdate" class="flex flex-col gap-y-2">
         <span class="label-text">Pekerjaan</span>
-        <input id="occupation" type="text" value="{user?.occupation}" class="input input-bordered w-full rounded-xl focus:outline-none" placeholder="Pekerjaan" disabled />
+        <input id="occupation" type="text" value="{user?.occupation}" class="input input-bordered w-full rounded-xl focus:outline-none" placeholder="Pekerjaan" />
     </label>
     <form action="?/logout" method="POST">
         <button type="submit" class="btn btn-error rounded-xl text-white w-full">

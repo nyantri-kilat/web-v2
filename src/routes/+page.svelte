@@ -56,7 +56,8 @@
 				</p>
 				<br />
 				<p>
-					<b>Pertemuan Screening</b> Perkenalan, konsultasi, menyusun jadwal dan melihat kemampuan peserta.
+					<b>Pertemuan Screening</b> Perkenalan, konsultasi, menyusun jadwal dan melihat kemampuan
+					peserta.
 				</p>
 			</div>
 		</div>
@@ -67,9 +68,9 @@
 				<section class="flex flex-col gap-y-5 text-justify">
 					<p>
 						Kegiatan tahsin qur'an bertujuan untuk memperbagus atau memperbaiki dan memperlancar
-						bacaan Al Qur'an peserta. Kegiatannya berisi dengan melakukan setoran ngaji atau membaca
-						al qur'an dengan disimak/didengarkan oleh Ustadz/Ustadzah dan akan dibetulkan atau
-						diperbaiki apabila ada kesalahan atau kekurangan dalam melafadzkan ayat qur'an.
+						bacaan Al Qur'an peserta. Kegiatannya berisi dengan melakukan setoran ngaji atau
+						membaca al qur'an dengan disimak/didengarkan oleh Ustadz/Ustadzah dan akan dibetulkan
+						atau diperbaiki apabila ada kesalahan atau kekurangan dalam melafadzkan ayat qur'an.
 					</p>
 					<p>
 						Dengan mengikuti program ini peserta dapat mencapai bacaan al qur'an yang lebih baik,
@@ -79,11 +80,11 @@
 					<section>
 						<h1 class="font-semibold">Pertemuan Screening</h1>
 						<p>
-							Perkenalan, konsultasi, menyusun jadwal dan melihat kemampuan peserta. Jika lancar dan
-							tidak ada kendala bisa langsung mempersiapkan untuk pertemuan pertama. Mendapat arahan
-							dari ustadz/ustadzah memulai setoran dari surat yang dipilih. Jika ada hal yang perlu
-							diperhatikan akan diberikan arahan/saran dari ustadz/ustadzah. Bisa berupa naik kelas
-							atau turun kelas.
+							Perkenalan, konsultasi, menyusun jadwal dan melihat kemampuan peserta. Jika lancar
+							dan tidak ada kendala bisa langsung mempersiapkan untuk pertemuan pertama. Mendapat
+							arahan dari ustadz/ustadzah memulai setoran dari surat yang dipilih. Jika ada hal
+							yang perlu diperhatikan akan diberikan arahan/saran dari ustadz/ustadzah. Bisa
+							berupa naik kelas atau turun kelas.
 						</p>
 					</section>
 					<section>
@@ -102,22 +103,34 @@
 			<div class="collapse-content">
 				<section class="flex flex-col gap-y-5 text-justify">
 					<p>
-						Kegiatan tahfidz juz 30 bertujuan untuk peserta yang sudah mampu membaca Al Qur'an dengan baik, benar dan lancar. Kemudian ingin meningkatkan ngajinya dengan menghafalkan juz 'amma/juz 30 dengan disetorkan kepada Ustadz/Ustadzah yang kompeten dan sanad tahfidz qur'annya bersambung sampai ke Rosulullah SAW.
+						Kegiatan tahfidz juz 30 bertujuan untuk peserta yang sudah mampu membaca Al Qur'an
+						dengan baik, benar dan lancar. Kemudian ingin meningkatkan ngajinya dengan
+						menghafalkan juz 'amma/juz 30 dengan disetorkan kepada Ustadz/Ustadzah yang kompeten
+						dan sanad tahfidz qur'annya bersambung sampai ke Rosulullah SAW.
 					</p>
 					<p>
-						Dengan mengikuti program ini peserta dapat hafal surat-surat dalam juz 30 dan mendapat sanad hafalan qur'an dari ustadz/ustadzah sampai Rosulullah SAW. Sedikit atau banyaknya pencapaian mengaji menyesuaikan dengan kemampuan peserta.
+						Dengan mengikuti program ini peserta dapat hafal surat-surat dalam juz 30 dan mendapat
+						sanad hafalan qur'an dari ustadz/ustadzah sampai Rosulullah SAW. Sedikit atau
+						banyaknya pencapaian mengaji menyesuaikan dengan kemampuan peserta.
 					</p>
 					<section>
 						<h1 class="font-semibold">Pertemuan Screening</h1>
 						<p>
-							Perkenalan, konsultasi, menyusun jadwal dan melihat kemampuan peserta. Jika lancar dan tidak ada kendala bisa langsung mempersiapkan untuk pertemuan pertama. Mendapat arahan dari ustadz/ustadzah memulai setoran dari surat yang dipilih.
-							Jika ada hal yang perlu diperhatikan akan diberikan arahan/saran dari ustadz/ustadzah. Bisa berupa naik kelas atau turun kelas.
+							Perkenalan, konsultasi, menyusun jadwal dan melihat kemampuan peserta. Jika lancar
+							dan tidak ada kendala bisa langsung mempersiapkan untuk pertemuan pertama. Mendapat
+							arahan dari ustadz/ustadzah memulai setoran dari surat yang dipilih. Jika ada hal
+							yang perlu diperhatikan akan diberikan arahan/saran dari ustadz/ustadzah. Bisa
+							berupa naik kelas atau turun kelas.
 						</p>
 					</section>
 					<section>
 						<h1 class="font-semibold">Pertemuan Pertama dan seterusnya</h1>
 						<p>
-							Isi kegiatannya yaitu dengan menyetorkan hafalan yang sudah dihafalkan (bisa beberapa ayat atau halaman yang sudah dihafalkan sendiri) kemudian disetorkan kepada ustadz/ustadzah. Dilanjutkan materi tambahan jika diperlukan dan membaca surat/ayat yang akan dihafalkan sendiri (sebagai pekerjaan rumah) dan akan disetorkan di pertemuan selanjutnya.
+							Isi kegiatannya yaitu dengan menyetorkan hafalan yang sudah dihafalkan (bisa
+							beberapa ayat atau halaman yang sudah dihafalkan sendiri) kemudian disetorkan kepada
+							ustadz/ustadzah. Dilanjutkan materi tambahan jika diperlukan dan membaca surat/ayat
+							yang akan dihafalkan sendiri (sebagai pekerjaan rumah) dan akan disetorkan di
+							pertemuan selanjutnya.
 						</p>
 					</section>
 				</section>
@@ -129,12 +142,13 @@
 			<div class="collapse-content">
 				<section class="flex flex-col gap-y-5 text-justify">
 					<p>
-						Kegiatan tahfidz surat-surat penting bertujuan untuk peserta yang sudah mampu membaca Al Qur'an dengan baik, benar, dan lancar. Kemudian ingin menghafalkan surat-surat penting dengan disetorkan kepada Ustadz/Ustadzah yang kompeten dan sanad tahfidz qur'annya bersambung sampai ke Rosulullah SAW.
+						Kegiatan tahfidz surat-surat penting bertujuan untuk peserta yang sudah mampu membaca
+						Al Qur'an dengan baik, benar, dan lancar. Kemudian ingin menghafalkan surat-surat
+						penting dengan disetorkan kepada Ustadz/Ustadzah yang kompeten dan sanad tahfidz
+						qur'annya bersambung sampai ke Rosulullah SAW.
 					</p>
-					<p>
-						Surat-surat penting terdiri dari :
-					</p>
-					<ul class="list-disc list-inside ps-3">
+					<p>Surat-surat penting terdiri dari :</p>
+					<ul class="list-inside list-disc ps-3">
 						<li>Surat Yasin</li>
 						<li>Surat Ar Rahman</li>
 						<li>Surat Al Waqi'ah</li>
@@ -144,14 +158,21 @@
 					<section>
 						<h1 class="font-semibold">Pertemuan Screening</h1>
 						<p>
-							Perkenalan, konsultasi, menyusun jadwal dan melihat kemampuan peserta. Jika lancar dan tidak ada kendala bisa langsung mempersiapkan untuk pertemuan pertama. Mendapat arahan dari ustadz/ustadzah memulai setoran dari surat yang dipilih.
-							Jika ada hal yang perlu diperhatikan akan diberikan arahan/saran dari ustadz/ustadzah. Bisa berupa naik kelas atau turun kelas.
+							Perkenalan, konsultasi, menyusun jadwal dan melihat kemampuan peserta. Jika lancar
+							dan tidak ada kendala bisa langsung mempersiapkan untuk pertemuan pertama. Mendapat
+							arahan dari ustadz/ustadzah memulai setoran dari surat yang dipilih. Jika ada hal
+							yang perlu diperhatikan akan diberikan arahan/saran dari ustadz/ustadzah. Bisa
+							berupa naik kelas atau turun kelas.
 						</p>
 					</section>
 					<section>
 						<h1 class="font-semibold">Pertemuan Pertama dan seterusnya</h1>
 						<p>
-							Isi kegiatannya yaitu dengan menyetorkan hafalan yang sudah dihafalkan (bisa beberapa ayat atau halaman yang sudah dihafalkan sendiri) kemudian disetorkan kepada ustadz/ustadzah. Dilanjutkan materi tambahan jika diperlukan dan membaca surat/ayat yang akan dihafalkan sendiri (sebagai pekerjaan rumah) dan akan disetorkan di pertemuan selanjutnya.
+							Isi kegiatannya yaitu dengan menyetorkan hafalan yang sudah dihafalkan (bisa
+							beberapa ayat atau halaman yang sudah dihafalkan sendiri) kemudian disetorkan kepada
+							ustadz/ustadzah. Dilanjutkan materi tambahan jika diperlukan dan membaca surat/ayat
+							yang akan dihafalkan sendiri (sebagai pekerjaan rumah) dan akan disetorkan di
+							pertemuan selanjutnya.
 						</p>
 					</section>
 				</section>
@@ -163,22 +184,35 @@
 			<div class="collapse-content">
 				<section class="flex flex-col gap-y-5 text-justify">
 					<p>
-						Kegiatan tahfidz 30 juz bertujuan untuk peserta yang sudah mampu membaca Al Qur'an dengan baik, benar, dan lancar dan sudah menghafalkan juz 30/ juz 'amma. Kemudian ingin menghafalkan al qur'an dimulai dari juz 1 dst. dengan disetorkan kepada Ustadz/Ustadzah yang kompeten dan sanad tahfidz qur'annya bersambung sampai ke Rosulullah SAW.
+						Kegiatan tahfidz 30 juz bertujuan untuk peserta yang sudah mampu membaca Al Qur'an
+						dengan baik, benar, dan lancar dan sudah menghafalkan juz 30/ juz 'amma. Kemudian
+						ingin menghafalkan al qur'an dimulai dari juz 1 dst. dengan disetorkan kepada
+						Ustadz/Ustadzah yang kompeten dan sanad tahfidz qur'annya bersambung sampai ke
+						Rosulullah SAW.
 					</p>
 					<p>
-						Dengan mengikuti program ini peserta dapat hafal alquran dan mendapat sanad hafalan qur'an dari ustadz/ustadzah sampai Rosulullah SAW. Sedikit atau banyaknya pencapaian mengaji menyesuaikan dengan kemampuan peserta.
+						Dengan mengikuti program ini peserta dapat hafal alquran dan mendapat sanad hafalan
+						qur'an dari ustadz/ustadzah sampai Rosulullah SAW. Sedikit atau banyaknya pencapaian
+						mengaji menyesuaikan dengan kemampuan peserta.
 					</p>
 					<section>
 						<h1 class="font-semibold">Pertemuan Screening</h1>
 						<p>
-							Perkenalan, konsultasi, menyusun jadwal dan melihat kemampuan peserta. Jika lancar dan tidak ada kendala bisa langsung mempersiapkan untuk pertemuan pertama. Mendapat arahan dari ustadz/ustadzah memulai setoran dari surat yang dipilih.
-							Jika ada hal yang perlu diperhatikan akan diberikan arahan/saran dari ustadz/ustadzah. Bisa berupa naik kelas atau turun kelas.
+							Perkenalan, konsultasi, menyusun jadwal dan melihat kemampuan peserta. Jika lancar
+							dan tidak ada kendala bisa langsung mempersiapkan untuk pertemuan pertama. Mendapat
+							arahan dari ustadz/ustadzah memulai setoran dari surat yang dipilih. Jika ada hal
+							yang perlu diperhatikan akan diberikan arahan/saran dari ustadz/ustadzah. Bisa
+							berupa naik kelas atau turun kelas.
 						</p>
 					</section>
 					<section>
 						<h1 class="font-semibold">Pertemuan Pertama dan seterusnya</h1>
 						<p>
-							Isi kegiatannya yaitu dengan menyetorkan hafalan yang sudah dihafalkan (bisa beberapa ayat atau halaman yang sudah dihafalkan sendiri) kemudian disetorkan kepada ustadz/ustadzah. Dilanjutkan materi tambahan jika diperlukan dan membaca surat/ayat yang akan dihafalkan sendiri (sebagai pekerjaan rumah) dan akan disetorkan di pertemuan selanjutnya.
+							Isi kegiatannya yaitu dengan menyetorkan hafalan yang sudah dihafalkan (bisa
+							beberapa ayat atau halaman yang sudah dihafalkan sendiri) kemudian disetorkan kepada
+							ustadz/ustadzah. Dilanjutkan materi tambahan jika diperlukan dan membaca surat/ayat
+							yang akan dihafalkan sendiri (sebagai pekerjaan rumah) dan akan disetorkan di
+							pertemuan selanjutnya.
 						</p>
 					</section>
 				</section>
@@ -190,21 +224,25 @@
 			<div class="collapse-content">
 				<section class="flex flex-col gap-y-5 text-justify">
 					<p>
-						Kegiatan muroja'ah bertujuan untuk peserta yang sudah mempunyai hafalan alqur'an, baik baru 1 juz, 2 juz atau seterusnya. Kemudian ingin menjaga hafalannya dengan menyetorkan hafalan yang sudah pernah dicapainya kepada Ustadz/Ustadzah yang kompeten dan sanad tahfidz qur'an bersambung sampai ke Rosulullah SAW.
+						Kegiatan muroja'ah bertujuan untuk peserta yang sudah mempunyai hafalan alqur'an, baik
+						baru 1 juz, 2 juz atau seterusnya. Kemudian ingin menjaga hafalannya dengan
+						menyetorkan hafalan yang sudah pernah dicapainya kepada Ustadz/Ustadzah yang kompeten
+						dan sanad tahfidz qur'an bersambung sampai ke Rosulullah SAW.
 					</p>
 					<p>
-						Dengan mengikuti program ini peserta dapat menjaga hafalan alqurannya dan mendapat sanad hafalan qur'an dari ustadz/ustadzah sampai Rosulullah SAW. Sedikit atau banyaknya pencapaian mengaji menyesuaikan dengan kemampuan peserta.
+						Dengan mengikuti program ini peserta dapat menjaga hafalan alqurannya dan mendapat
+						sanad hafalan qur'an dari ustadz/ustadzah sampai Rosulullah SAW. Sedikit atau
+						banyaknya pencapaian mengaji menyesuaikan dengan kemampuan peserta.
 					</p>
 					<section>
 						<h1 class="font-semibold">Pertemuan Screening</h1>
-						<p>
-							Perkenalan dan konsultasi metode, jadwal ngaji, dll
-						</p>
+						<p>Perkenalan dan konsultasi metode, jadwal ngaji, dll</p>
 					</section>
 					<section>
 						<h1 class="font-semibold">Pertemuan Pertama dan seterusnya</h1>
 						<p>
-							Menyetorkan hafalannya kepada Ustadz/Ustadzah. Bisa menambah materi tambahan jika dan atau konsultasi, apabila diperlukan.
+							Menyetorkan hafalannya kepada Ustadz/Ustadzah. Bisa menambah materi tambahan jika
+							dan atau konsultasi, apabila diperlukan.
 						</p>
 					</section>
 				</section>
@@ -217,7 +255,7 @@
 			<div>
 				<p class="mt-2">Ingin Info Lebih lanjut?</p>
 			</div>
-	
+
 			<a
 				class="btn btn-primary normal-case"
 				target="_blank"
@@ -233,7 +271,7 @@
 					<span class="text-sm font-semibold text-gray-800">Untuk 10 Kali Pertemuan</span>
 				</div>
 			</div>
-	
+
 			<a
 				class="btn btn-secondary normal-case"
 				target="_blank"

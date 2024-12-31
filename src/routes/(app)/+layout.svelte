@@ -3,7 +3,7 @@
     import Menus from '$lib/components/Menus.svelte';
 </script>
 
-<section class="flex flex-col gap-y-10">
+<section class="flex flex-col">
     <Menus/>
     {@render children()}
 </section>

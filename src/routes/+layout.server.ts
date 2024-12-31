@@ -10,6 +10,7 @@ export const load = async (event) => {
     const isNewUser = event.cookies.get('isNewUser') ? event.cookies.get('isNewUser') : "false"
     try {
         const request = await fetch(`${apiUrl}/auth/user`, {
+            cache: 'default',
             headers: {
                 'Authorization': `Bearer ${sessionId}`
             }

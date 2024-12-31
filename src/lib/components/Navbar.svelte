@@ -36,7 +36,7 @@
 	</div>
 	<div class="navbar-end">
         {#if sessionId}
-            <button onclick="{() => goto('/profile')}" class="btn btn-ghost">Akun Anda</button>
+            <button onclick="{() => goto('/course')}" class="btn btn-ghost">Akun Anda</button>
         {:else}
 		    <button onclick={()=>showLogin()} class="btn btn-ghost">Daftar / Masuk</button>
         {/if}
